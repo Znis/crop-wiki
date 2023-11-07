@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    >
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".cropSearch">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginLeft="7dip"
+        android:layout_marginTop="10dip"
+
+        android:text="Enter the Temperature of the field (Celsius) :"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText11"
+
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dip"
+        android:layout_marginBottom="20dip"
+        android:ems="2"
+        android:inputType="number"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginLeft="7dip"
+        android:text="Enter the Humidity of the field (%) :"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginStart="7dip" />
+
+    <EditText
+        android:id="@+id/editText"
+
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dip"
+        android:layout_marginBottom="20dip"
+        android:ems="2"
+        android:inputType="number"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginStart="7dip"
+        android:layout_marginLeft="7dip"
+        android:text="Tick the suitable season :"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:text="Summer" />
+
+        <RadioButton
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:text="Winter" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right|center_horizontal"
+        android:text="search" />
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Crop Wiki</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="existing_profiles">Existing Profiles</string>
+    <string name="create_new_profile">Create new profile</string>
+    <string name="search_crops">Search crops</string>
+    <string name="about_app">about app</string>
+</resources>

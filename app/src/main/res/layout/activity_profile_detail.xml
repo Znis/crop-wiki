@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".profileDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="172dp">
+
+        <TextView
+            android:id="@+id/detailView"
+            android:layout_width="211dp"
+            android:layout_height="143dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/updateBtn"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="update" />
+
+            <Button
+                android:id="@+id/delBtn"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:onClick="dialogevent"
+                android:text="Delete" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Suitablecrop"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Suitable Crops List" />
+
+        <TextView
+            android:id="@+id/cropDetailshow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

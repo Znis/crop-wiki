@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+    >
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="7dip"
+    tools:context=".cropSearch">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:layout_marginTop="10dip"
+        android:text="Enter the name of Crop :"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:layout_marginTop="10dip"
+        android:text="Enter the suitable temperature (C) :"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText11"
+
+            android:layout_width="159dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dip"
+            android:layout_marginBottom="20dip"
+            android:ems="2"
+            android:hint="Initial value"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editText2"
+
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dip"
+            android:layout_marginBottom="20dip"
+            android:layout_weight="1"
+            android:ems="2"
+            android:hint="Final value"
+            android:inputType="number"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginTop="10dip"
+        android:text="Enter the humidity level for the Crop (%) :"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText4"
+
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:layout_marginBottom="20dip"
+            android:layout_weight="1"
+            android:ems="2"
+            android:hint="Initial value"
+            android:inputType="number"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editText7"
+
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:layout_marginBottom="20dip"
+            android:layout_weight="1"
+            android:ems="2"
+            android:hint="Final value"
+            android:inputType="number"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:layout_marginTop="10dip"
+        android:text="Suitable Season :"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/checkBox"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dip"
+                android:text="Summer" />
+
+            <RadioButton
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dip"
+                android:text="Winter" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Textview5"
+            android:layout_width="match_parent"
+            android:layout_height="25dip"
+            android:layout_marginTop="20dip"
+            android:text="Crop Description :"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="Description"
+            android:inputType="textLongMessage|textMultiLine|textPersonName"
+             />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dip"
+            android:layout_marginTop="20dip"
+            android:text="save crop" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+
+
