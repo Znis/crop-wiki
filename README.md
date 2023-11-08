@@ -5,7 +5,7 @@ The application is created using Android Studio and programmed in Java. It conta
 
 ## Installation
 
-The project folder can be opened on VS Code or Android studio.
+The project folder can be opened on Android studio.
 
 
 
@@ -13,6 +13,8 @@ The project folder can be opened on VS Code or Android studio.
 
 The apk file is available in the Releases section. Download it and install on your android device.
 
+## Youtube Link Showing the Demo
+[CropWiki App's Demo](https://www.youtube.com/embed/SOb-XXryWm8)
 
 ## Contributing
 
